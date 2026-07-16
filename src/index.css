@@ -1,0 +1,56 @@
+body {
+  background: #f1f1f1;
+}
+
+.form {
+  padding: 15px;
+  background: #0d47a1;
+  color: white;
+}
+
+.card-body {
+  background: #e1e2e1;
+}
+
+#creado {
+  background: #002b55;
+}
+
+.card {
+  background: transparent !important;
+  border: none !important;
+}
+
+.fa-solid {
+  color: red;
+}
+
+i {
+  cursor: pointer;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Obliga a que todas las tarjetas tengan la misma altura */
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Obliga a que todas las imágenes midan exactamente lo mismo de alto */
+.card-img-top {
+  height: 200px; /* Puedes subirlo a 250px si las quieres más altas */
+  object-fit: cover; /* Recorta la imagen para que quepa perfecta sin deformarse */
+  width: 100%;
+}
+
+/* Distribuye el contenido de la tarjeta uniformemente */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
